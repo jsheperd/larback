@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-composer global require laravel/installer
+
+# download composer
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+# composer.phar global require laravel/installer
